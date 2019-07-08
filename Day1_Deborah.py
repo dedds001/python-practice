@@ -23,7 +23,7 @@ newlist = [54,76]
 ##adding elements to a list
 abcd1 = abcd + newlist
 #nest a list within another list
-abcd = abcd.append([54, 76])
+abcd.append([54, 76])
 
 # Ex3 - Print the 1 and the 4 position element in the following list
 
@@ -32,7 +32,7 @@ nestedlist = ["shail", [11,8, 4, 6], ['toronto'],abcd, "abcd"]
 print(nestedlist[0], nestedlist[3])
 
 
-# Ex4  - add the fllowing 2 lists and create list3 and print 
+# Ex4  - add the following 2 lists and create list3 and print 
 
 list1= [10, 20, 'company', 40, 50, 100]
 
