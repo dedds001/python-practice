@@ -118,3 +118,26 @@ list1.sort()
 #sort list1 by reverse order
 list1.sort(reverse = True)
 
+
+
+
+##type a new list list1  and give a new list with unique items in list
+
+list1 = [10, 10, 20, 30, 30, 40, 50]
+
+set(list1)
+
+list2 = list(set(list1))
+
+#or
+unique_list1 = []
+for item in set(list1):
+    unique_list1.append(item)
+
+#or 
+
+unique_list1 = []
+for item in (list1):
+    if item not in unique_list1:
+        unique_list1.append(item)
+    
