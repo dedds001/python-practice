@@ -78,7 +78,7 @@ list4 = list1[:4] +list2[-2:]
 list5 = list1 + ['cool', 1990]
 
 # Ex 11 -  triplicate the list 1
-list6 = list1*3s
+list6 = list1*3
 
 # ex 12 - find min & max of list2
 
